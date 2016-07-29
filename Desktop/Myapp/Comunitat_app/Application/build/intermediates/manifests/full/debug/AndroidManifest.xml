@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2013 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.slidingtabsbasic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+    <application
+        android:name="com.example.android.Resources.GlobalValue"
+        android:allowBackup="true"
+        android:icon="@drawable/house"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.android.pages.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.android.common.activities.page1" />
+        <activity android:name="com.example.android.common.activities.page2" />
+        <activity
+            android:name="com.example.android.pages.Home"
+            android:label="@string/title_activity_home_page"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.example.android.pages.SignUp"
+            android:label="@string/title_activity_sign_up_page"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.example.android.pages.CondoList"
+            android:label="@string/title_activity_condo_list_page"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.example.android.pages.Profile"
+            android:label="@string/title_activity_profile"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.example.android.pages.Calendar"
+            android:label="@string/title_activity_calendar" />
+        <activity
+            android:name="com.example.android.pages.Booking"
+            android:label="@string/title_activity_booking" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/javax.ws.rs-api-2.0.rev.A.jar')
+    compile files('libs/jersey-client-2.0-m09-1.jar')
+}

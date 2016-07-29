@@ -1,0 +1,9 @@
+<resources>
+    <string name="title_activity_login_page">LOGINe</string>
+    <string name="title_activity_home_page">COMUNITAT</string>
+    <string name="title_activity_sign_up_page">SIGNUP</string>
+    <string name="title_activity_condo_list_page">CONDOS</string>
+    <string name="title_activity_profile">PROFILE</string>
+    <string name="title_activity_calendar">CALENDAR</string>
+    <string name="title_activity_booking">BOOKING</string>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+<item android:id="@+id/profile" android:title="Profile"
+    android:icon="@drawable/profile"
+    android:orderInCategory="100"
+    android:showAsAction="ifRoom"/>
+</menu>
+<!-- From: file:/Users/Amos/Desktop/Myapp/Comunitat_app/Application/src/main/res/menu/main.xml -->
